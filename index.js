@@ -8,7 +8,7 @@ const SWCA = (window, accent, tint) => {
 		throw new Error(`The 'window' argument is not a native window handler.`);
 	}
 	if(typeof tint != 'number') {
-		throw new Errow(`The 'tint' argument is not a number.`);
+		throw new Error(`The 'tint' argument is not a number.`);
 	}
 	return ewc.setComposition(window, accent, tint);
 }
